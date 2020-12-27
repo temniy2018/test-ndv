@@ -1,0 +1,10 @@
+@import 'src/css/main.css';
+@import 'src/css/exchange.css';
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}

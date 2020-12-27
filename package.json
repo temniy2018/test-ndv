@@ -1,0 +1,15 @@
+{
+  "name": "test-ndv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files 'src/css/*.css, **/*.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "dependencies": {}
+}

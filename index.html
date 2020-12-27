@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Обменник валют</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+ 
+</head>
+
+<body>
+    <header>Конвертация валют
+        <div class="header_links">
+            <button id="main" onclick="onClickExchange()">Обменник</button>
+            <button id="rate" onclick="onClickCurExchange()">Курс валют</button>
+        </div>
+    </header>
+    <div id="root"></div>
+
+    <template id="curExchange">
+        <div class="curExchange">
+            <select name="currencyEntry" id='entrySelect'>
+                <option value="RU">Русский рубль</option>
+            </select>
+            <input type="text" id='entryInput'>
+            <span style="font-size: 2.6rem;">=</span>
+            <span id="result">0</span>
+            <select name="currencyResult" id='resultSelect'>
+                <option value="RU">Русский рубль</option>
+            </select>
+            <button class="exchButton" onclick="onExchange()">Сравнить</button>
+        </div>
+    </template>
+
+    <template id='getRate'>
+        <h2 class="getRateHeader">Курсы валют относительно рубля</h2>
+        <div class="exchange">
+        </div>
+    </template>
+
+    <script type="module" src="src/js/index.js"></script>
+</body>
+
+</html>

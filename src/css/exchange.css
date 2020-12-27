@@ -1,0 +1,96 @@
+.exchange {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.exchange h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.exchange p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.exchange p span {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.curExchange {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    border: 2px solid rgb(24, 23, 131);
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+#entryInput {
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#result {
+    font-size: 1.6rem;
+}
+
+.exchButton {
+    background-color: rgb(24, 23, 131);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 4px solid transparent;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.exchButton:hover, .exchButton:active {
+    border: 4px solid black;
+}
+
+.like {
+    font-size: 0.8rem !important;
+    color: #777;
+    font-weight: 100 !important;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.like:hover, .like:active {
+    color: #333 !important;
+}
+
+.liked {
+    font-size: 0.8rem !important;
+    color: rgb(24, 28, 214);
+    font-weight: 100 !important;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.liked:hover, .liked:active {
+    color: rgb(17, 15, 126) !important;
+}
+
+.getRateHeader {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 20px 0 0 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+}
